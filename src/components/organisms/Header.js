@@ -1,12 +1,10 @@
-import React from 'react';
-import Button from "./../atoms/Button"
+import React from "react";
+import Button from "./../atoms/Button";
+import { textData } from "./../../data/textData";
 
-function Header(props) {
-    return (
-        <div>
-            <Button/>
-        </div>
-    );
-}
-
+const Header = () =>
+  <header>
+    <Button btnText={textData.btn} />
+  </header>
+;
 export default Header;
