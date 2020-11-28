@@ -1,7 +1,6 @@
 import React from "react";
-import { textData } from "./../../data/textData";
 import Text from "./../atoms/Text";
 
-const BrownText = () => <Text text="brown" section="footer" color="brown"/>;
+const BrownText = (props) => <Text section="footer" color="brown" text={props.text}/>;
 
 export default BrownText;

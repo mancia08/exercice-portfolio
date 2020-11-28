@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { style } from "./../../styles/theme";
 
-const TextComponent = styled.h1`
+const TextComponent = styled.p`
+  font-weight: ${(p) => p.type === "title" && "bold"};
   @import url(${style.font.family.titles.url});
   @import url(${style.font.family.main.url});
   color: ${(p) =>

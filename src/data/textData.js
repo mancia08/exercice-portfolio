@@ -1,4 +1,7 @@
 export const textData = {
-  btn: "contact me!",
-  title: "Matt McDonald",
+  header: {
+    btn: "contact me!",
+    title: `Matt McDonald`,
+    text: "Designer / Developer"
+  }
 };
