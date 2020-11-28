@@ -38,4 +38,59 @@ export const textData = {
       },
     ],
   },
+  education: {
+    title: "Education",
+    first: "BFA in Graphic Design — James Madison University",
+    second: "Graduated 2014",
+    skillset: {
+      title: "Skillset",
+      text: [
+        "Visual Design",
+        "Illustration",
+        "UX/Prototyping",
+        "Cideo/Motion Graphics",
+        "Marketing",
+        "Front-End Development",
+      ],
+    },
+    awards: {
+      title: "awards",
+      text: ["Award1 - Mar2019", "Award2 - september2020"],
+    },
+    career: {
+      title: "Career traits",
+      text: [
+        {
+          title: "Holistic Designer",
+          text:
+            "Design should be treated as a living organism, guided by the environment it lives in as a whole.",
+        },
+        {
+          title: "User Focused",
+          text:
+            "Design should be treated as a living organism, guided by the environment it lives in as a whole.",
+        },
+        {
+          title: "Proactive Evolution",
+          text:
+            "Design should be treated as a living organism, guided by the environment it lives in as a whole.",
+        },
+        {
+          title: "Bold, yet practical",
+          text:
+            "Design should be treated as a living organism, guided by the environment it lives in as a whole.",
+        },
+      ],
+    },
+    recent: {
+      title: "recent works",
+      text: [
+        {
+          name: "facebook",
+          link: "https://www.facebook.com",
+        },
+        { name: "google", link: "https://www.google.com" },
+      ],
+    },
+  },
 };
