@@ -1,5 +1,4 @@
 export const textData = {
-    btn: "contact me!",
-    title: "Matt McDonald"
-  };
-  
+  btn: "contact me!",
+  title: "Matt McDonald",
+};

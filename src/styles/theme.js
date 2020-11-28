@@ -13,8 +13,7 @@ export const style = {
         family: "PT Sans Narrow",
       },
       titles: {
-        url:
-          "https://fonts.googleapis.com/css2?family=Playfair+Display",
+        url: "https://fonts.googleapis.com/css2?family=Playfair+Display",
         family: "Playfair Display",
       },
     },
@@ -22,18 +21,17 @@ export const style = {
     size: {
       mobile: { xs: 14, s: 18, m: 26, l: 32, xl: 40, xxl: 56 },
       tablet: { xs: 18, s: 20, m: 30, l: 32, xl: 56, xxl: 86 },
-      pc: { xs: 18 , s: 20, m: 36, l: 66, xl: 126},
+      pc: { xs: 18, s: 20, m: 36, l: 66, xl: 126 },
     },
   },
   sizes: {
-    btn:{
+    btn: {
       width: 225,
-      height: 60
-    }
+      height: 60,
+    },
   },
   viewport: {
     tablet: 425,
-    pc: 768
-  }
-
+    pc: 768,
+  },
 };
