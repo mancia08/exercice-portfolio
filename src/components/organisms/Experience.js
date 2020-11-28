@@ -7,11 +7,13 @@ import BrownText from "./../molecules/BrownText"
 const About = () =>
         <section>
             <SectionTitle text={textData.experience.title}/>
+            {textData.experience.text.map ((e, index) => (
             <>
-            <BrownText text={textData.experience.text[0].name}/>
-            <SectionText text={textData.experience.text[0].time}/>
-            <SectionText text={textData.experience.text[0].text}/>
+            <BrownText key = {index} text={e.name}/>
+            <SectionText key = {index} text={e.time}/>
+            <SectionText key = {index} text={e.text}/>
             </>
+))}
         </section>
 
 
