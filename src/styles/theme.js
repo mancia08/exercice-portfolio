@@ -29,6 +29,11 @@ export const style = {
       width: 225,
       height: 60,
     },
+    logo: {
+      mobile: 160,
+      tablet: 200,
+      pc: 350
+    }
   },
   viewport: {
     tablet: 425,
