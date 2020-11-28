@@ -1,16 +1,25 @@
-import React from 'react';
-import Header from "./components/organisms/Header"
-import About from "./components/organisms/About"
-import Experience from "./components/organisms/Experience"
-import Education from "./components/organisms/Education"
+import React from "react";
+import styled from "styled-components";
+import { style } from "./styles/theme";
+import Header from "./components/organisms/Header";
+import FirstLine from "./components/templates/FirstLine";
+import SecondLine from "./components/templates/SecondLine";
+
+const Container = styled.main`
+  @media only screen and (min-width: ${style.viewport.pc}px) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+`;
 
 const App = () => (
-    <>
-      <Header/>
-      <About/>
-      <Experience/>
-      <Education/>
-    </>
-)
+  <>
+    <Header />
+    <Container>
+      <FirstLine />
+      <SecondLine />
+    </Container>
+  </>
+);
 
 export default App;
