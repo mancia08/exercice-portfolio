@@ -1,7 +1,7 @@
 import React from "react";
 import { textData } from "./../../data/textData";
-import TitleText from "./../atoms/TitleText";
+import Text from "./../atoms/Text";
 
-const SectionTitle = () => <TitleText text={textData.title} type="section" />;
+const SectionTitle = () => <Text text={textData.title} section="main" type="title"/>;
 
 export default SectionTitle;

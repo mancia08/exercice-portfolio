@@ -1,7 +1,7 @@
 import React from "react";
 import { textData } from "./../../data/textData";
-import TitleText from "./../atoms/TitleText";
+import Text from "./../atoms/Text";
 
-const FooterTitle = () => <TitleText text={textData.title} type="footer" />;
+const FooterTitle = () => <Text text={textData.title} section="footer" type="title"/>;
 
 export default FooterTitle;

@@ -1,7 +1,7 @@
 import React from "react";
 import { textData } from "./../../data/textData";
-import TitleText from "./../atoms/TitleText";
+import Text from "./../atoms/Text";
 
-const HeaderTitle = () => <TitleText text={textData.title} type="header" />;
+const HeaderTitle = () => <Text text={textData.title} section="header" type="title"/>;
 
 export default HeaderTitle;
