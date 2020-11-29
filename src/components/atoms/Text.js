@@ -29,7 +29,7 @@ const TextComponent = styled.p`
       ? style.font.size.mobile.s
       : (p.section === "main"
           ? style.font.size.mobile.s
-          : style.font.size.mobile.l)}px;
+          : style.font.size.mobile.m)}px;
   text-align: ${(p) =>
     (p.section === "footer" || p.section === "header") && "center"};
   text-transform: ${(p) => p.color === "brown" && "uppercase"};
@@ -45,9 +45,9 @@ const TextComponent = styled.p`
         ? style.font.size.tablet.xs
         : p.color === "black"
         ? style.font.size.tablet.s
-        : (p.section = "main"
+        : (p.section === "main"
             ? style.font.size.tablet.s
-            : style.font.size.tablet.l)}px;
+            : style.font.size.tablet.m)}px;
   }
   @media only screen and (min-width: ${style.viewport.pc}px) {
     font-size: ${(p) =>
@@ -61,7 +61,7 @@ const TextComponent = styled.p`
         ? style.font.size.pc.xs
         : p.color === "black"
         ? style.font.size.pc.s
-        : (p.section = "main" ? style.font.size.pc.s : style.font.size.pc.l)}px;
+        : (p.section === "main" ? style.font.size.pc.s : style.font.size.pc.m)}px;
     text-align: ${(p) => p.section === "header" && "left"};
   }
 `;

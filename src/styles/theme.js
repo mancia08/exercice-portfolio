@@ -39,6 +39,11 @@ export const style = {
       mobile: 596,
       tablet: 736,
       pc: 747
+    },
+    footer: {
+      mobile: 547,
+      tablet: 596,
+      pc: 425
     }
   },
   viewport: {
