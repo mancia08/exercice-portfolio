@@ -104,4 +104,9 @@ export const textData = {
       run: <Links/>
     },
   ],
+  footer: {
+    title: "Get in touch!",
+    mail: "youremail@email.com",
+    phone: "512.273.1838"
+  }
 };

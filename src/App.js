@@ -4,6 +4,7 @@ import { style } from "./styles/theme";
 import Header from "./components/organisms/Header";
 import FirstLine from "./components/templates/FirstLine";
 import SecondLine from "./components/templates/SecondLine";
+import Footer from "./components/organisms/Footer";
 
 const Container = styled.main`
   @media only screen and (min-width: ${style.viewport.pc}px) {
@@ -19,6 +20,7 @@ const App = () => (
       <FirstLine />
       <SecondLine />
     </Container>
+    <Footer/>
   </>
 );
 
