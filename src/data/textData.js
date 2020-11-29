@@ -107,6 +107,7 @@ export const textData = {
   footer: {
     title: "Get in touch!",
     mail: "youremail@email.com",
+    mailto: `mailto:aa`,
     phone: "512.273.1838"
   }
 };

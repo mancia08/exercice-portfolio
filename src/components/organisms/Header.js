@@ -8,12 +8,13 @@ import HeaderTitle from "./../molecules/HeaderTitle";
 import Button from "./../atoms/Button";
 
 const HeaderComponent = styled.header`
-  background-color: ${style.color.secondaryTransparent};
   height: ${style.sizes.header.mobile}px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-top: 80px;
+  margin:0;
   @media only screen and (min-width: ${style.viewport.tablet}px) {
     height: ${style.sizes.header.tablet}px;
   }

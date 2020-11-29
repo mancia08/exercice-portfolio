@@ -6,8 +6,12 @@ import FooterTitle from "./../molecules/FooterTitle";
 import BlueFooterText from "./../molecules/BlueFooterText";
 
 const FooterContainer= styled.footer `
-background-color: ${style.color.secondaryTransparent};
   height: ${style.sizes.footer.mobile}px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin:0;
   @media only screen and (min-width: ${style.viewport.tablet}px) {
     height: ${style.sizes.footer.tablet}px;
   }
@@ -15,13 +19,14 @@ background-color: ${style.color.secondaryTransparent};
     height: ${style.sizes.footer.pc}px;
   }
 `
+const Link = styled.a `
+text-decoration:inherit`
 
 const Footer = () => (
   <FooterContainer>
 <FooterTitle text={textData.footer.title}/>
-<a href="mailto:ciao"><BlueFooterText text={textData.footer.mail}/></a>
+<Link href={textData.footer.mailto}><BlueFooterText text={textData.footer.mail}/></Link>
 <BlueFooterText text={textData.footer.phone}/>
-<h1>sdkjfsdjfds</h1>
   </FooterContainer>
 );
 export default Footer;
