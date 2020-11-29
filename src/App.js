@@ -7,33 +7,34 @@ import SecondLine from "./components/templates/SecondLine";
 import Footer from "./components/organisms/Footer";
 
 const Body = styled.body`
-background-color: ${style.color.secondaryTransparent};
-margin:0;
-padding:0`
+  background-color: ${style.color.secondaryTransparent};
+  margin: 0;
+  padding: 0;
+`;
 
-const Container = styled.main`
-background-color:white;
-transform: skewY(-9deg);
-padding-top:100px;
-padding: 50px;
+const Container = styled.section`
+  background-color: white;
+  transform: skewY(-9deg);
+  padding-top: 100px;
+  padding: 50px;
 
   @media only screen and (min-width: ${style.viewport.pc}px) {
     display: flex;
     flex-direction: row-reverse;
-    padding:100px;
+    padding: 100px;
   }
 `;
 
-const App = () => (
+const App = () => 
   <Body>
     <Header />
-    <br/>
+    <br />
     <Container>
       <FirstLine />
       <SecondLine />
     </Container>
-    <Footer/>
+    <Footer />
   </Body>
-);
+
 
 export default App;

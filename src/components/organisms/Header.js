@@ -14,7 +14,7 @@ const HeaderComponent = styled.header`
   flex-direction: column;
   align-items: center;
   padding-top: 80px;
-  margin:0;
+  margin: 0;
   @media only screen and (min-width: ${style.viewport.tablet}px) {
     height: ${style.sizes.header.tablet}px;
   }
@@ -34,7 +34,7 @@ const NameComponent = styled.div`
   }
 `;
 
-const Header = () => (
+const Header = () => 
   <HeaderComponent>
     <Picture />
     <NameComponent>
@@ -43,5 +43,4 @@ const Header = () => (
       <Button btnText={textData.header.btn} />
     </NameComponent>
   </HeaderComponent>
-);
 export default Header;

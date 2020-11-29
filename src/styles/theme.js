@@ -2,7 +2,7 @@ export const style = {
   color: {
     primary: `#0699A6`,
     secondary: `#9E8C6C`,
-    secondaryTransparent:`#9E8C6C1A`,
+    secondaryTransparent: `#9E8C6C1A`,
     text: `#000000`,
     btnText: `#FFFFFF`,
   },
@@ -33,18 +33,18 @@ export const style = {
     logo: {
       mobile: 160,
       tablet: 200,
-      pc: 350
+      pc: 350,
     },
     header: {
       mobile: 596,
       tablet: 736,
-      pc: 747
+      pc: 747,
     },
     footer: {
       mobile: 547,
       tablet: 596,
-      pc: 425
-    }
+      pc: 425,
+    },
   },
   viewport: {
     tablet: 425,

@@ -4,8 +4,9 @@ import logo from "./../img/profile.jpg";
 import { style } from "./../../styles/theme";
 
 const FacePic = styled.img`
-  border-radius: 50%;
   width: ${style.sizes.logo.mobile}px;
+  border-radius: 50%;
+
   @media only screen and (min-width: ${style.viewport.tablet}px) {
     width: ${style.sizes.logo.tablet}px;
   }

@@ -1,7 +1,7 @@
-import Skillset from "./../components/organisms/Skillset"
-import Awards from "./../components/organisms/Awards"
-import Career from "./../components/organisms/Career"
-import Links from "./../components/organisms/Links"
+import Skillset from "./../components/organisms/Skillset";
+import Awards from "./../components/organisms/Awards";
+import Career from "./../components/organisms/Career";
+import Links from "./../components/organisms/Links";
 
 export const textData = {
   header: {
@@ -59,12 +59,12 @@ export const textData = {
         "Marketing",
         "Front-End Development",
       ],
-      run: <Skillset/>
+      run: <Skillset />,
     },
     {
       title: "awards",
       text: ["Award1 - Mar2019", "Award2 - september2020"],
-      run: <Awards/>
+      run: <Awards />,
     },
     {
       title: "Career traits",
@@ -89,8 +89,8 @@ export const textData = {
           text:
             "Design should be treated as a living organism, guided by the environment it lives in as a whole.",
         },
-        
-      ],run: <Career/>
+      ],
+      run: <Career />,
     },
     {
       title: "recent works",
@@ -101,13 +101,13 @@ export const textData = {
         },
         { name: "google", link: "https://www.google.com" },
       ],
-      run: <Links/>
+      run: <Links />,
     },
   ],
   footer: {
     title: "Get in touch!",
     mail: "youremail@email.com",
     mailto: `mailto:aa`,
-    phone: "512.273.1838"
-  }
+    phone: "512.273.1838",
+  },
 };
