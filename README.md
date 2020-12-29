@@ -1,2 +1,2 @@
 Wireframe used: wireframe.fig \
-Netlify: https://cranky-joliot-65df60.netlify.app/
+Netlify: https://gracious-allen-3ce998.netlify.app/
